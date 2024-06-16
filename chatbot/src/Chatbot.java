@@ -11,7 +11,7 @@ public class Chatbot {
 
     public void start() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Hello! I'm your API chatbot. What information would you like?");
+        System.out.println("Hello! I'm your API chatbot!");
         System.out.println("You can ask me about the current weather or exchange rates.");
 
         while (true) {
@@ -35,7 +35,7 @@ public class Chatbot {
                     System.out.println("Chatbot: Goodbye!");
                     break;
                 } else {
-                    System.out.println("Chatbot: I'm sorry, I can only provide information on the weather and exchange rates.");
+                    System.out.println("Chatbot: I'm sorry, I'm not allowed to provide you information on the weather and exchange rates.");
                     System.out.println("If you want to exit, type 'exit'.");
                 }
             } catch (Exception e) {
